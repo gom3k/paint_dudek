@@ -25,9 +25,6 @@ public class Panel extends JPanel implements MouseListener, MouseMotionListener{
     }
     public void mouseReleased(MouseEvent e){}
     public void mouseClicked(MouseEvent e){
-//        x = e.getX();
-//        y = e.getY();
-//        repaint();
 //        JOptionPane.showMessageDialog(null,e.getPoint().toString());
     }
     // MouseMotionListener
