@@ -5,7 +5,6 @@ import java.awt.event.MouseListener;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-;
 
 public class Panel extends JPanel implements MouseListener{
     public Panel(){
@@ -15,7 +14,7 @@ public class Panel extends JPanel implements MouseListener{
     public void mouseEntered(MouseEvent e){}
     public void mousePressed(MouseEvent e){}
     public void mouseReleased(MouseEvent e){}
-
+    
     public void mouseClicked(MouseEvent e){
         JOptionPane.showMessageDialog(null,e.getPoint().toString());
     }
